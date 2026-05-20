@@ -27,11 +27,6 @@ class Phaneendra:
 
 ## Featured Work
 
-### 🧠 AI Credit Card Recommendation Engine
-
-AI-driven recommendation system that predicts purchase context and recommends the optimal credit card for rewards optimization.
-
-**Focus Areas:** recommendation systems, explainability, reward optimization, experimentation
 
 ---
 
