@@ -1,6 +1,6 @@
 # Hey, I'm Phaneendra 👋
 
-```python
+​```python
 class Phaneendra:
     role = ["AI Engineer", "Data Scientist", "ML Engineer", "AI Product Builder"]
     interests = [
@@ -12,7 +12,7 @@ class Phaneendra:
         "MLOps",
     ]
     currently_building = "AI-powered systems with real-world impact"
-```
+​```
 
 ## About Me
 
@@ -25,6 +25,22 @@ class Phaneendra:
 ---
 
 ## Featured Projects
+
+### 📊 InsightHub — AI-Powered Business Analytics Platform
+Full-stack Azure analytics platform ingesting 230,000+ rows through a star-schema ETL pipeline, serving insights via FastAPI, a React dashboard, and a GPT-4o RAG search engine — fully deployed and live.
+
+- Python ETL pipeline: 7 CSVs → star schema (6 dims, 3 fact tables) in Azure SQL; 230,000+ rows processed
+- Non-Clustered Columnstore Index cut FactSales aggregation from ~8s to <1s on 119,652 rows
+- Hybrid RAG search: BM25 + ada-002 embeddings + Azure AI Search semantic re-ranking over 20 business documents
+- GPT-4o in JSON mode generates structured insights across Sales, Customers, Support, and Campaigns
+- FastAPI backend with JWT auth + RBAC (Admin/Analyst/Viewer), 14 endpoints, Application Insights telemetry
+- Bicep IaC for all 13 Azure resources with Key Vault secret references
+
+**Tech:** Python · FastAPI · Azure SQL · Azure Blob Storage · Azure OpenAI · Azure AI Search · Azure App Service · React 18 · TypeScript · Recharts · Bicep IaC · Vercel
+
+🔗 [GitHub](https://github.com/PHANI465/insighthub) · [Live Demo](https://insighthub-five.vercel.app)
+
+---
 
 ### 🧪 ASU LLM Evaluation Pipeline
 Automated CI/CD pipeline that scores a university RAG chatbot on every code push — making LLM quality enforceable like unit tests.
@@ -66,21 +82,21 @@ Production real-time anomaly detection for industrial equipment with sub-second 
 
 ---
 
-### 👁️ Anomaly Detection in Crowds
-CNN-based crowd safety system that learns normal behavior from historical video footage and flags anomalies in real time with frame-level heatmaps.
-
-**Tech:** Python · PyTorch · OpenCV · CNNs · Image Processing
-
-🔗 [GitHub](https://github.com/PHANI465/CrowdAnomalyDetection)
-
----
-
 ### 🏛️ Republic of Bean
 Multi-agent AI parliamentary simulation where autonomous GPT-4 agents with distinct political personas debate policy, vote, and generate structured outcome reports.
 
 **Tech:** Next.js · React · TypeScript · OpenAI API · Framer Motion
 
 🔗 [GitHub](https://github.com/PHANI465/Republic-of-Bean)
+
+---
+
+### 👁️ Anomaly Detection in Crowds
+CNN-based crowd safety system that learns normal behavior from historical video footage and flags anomalies in real time with frame-level heatmaps.
+
+**Tech:** Python · PyTorch · OpenCV · CNNs · Image Processing
+
+🔗 [GitHub](https://github.com/PHANI465/CrowdAnomalyDetection)
 
 ---
 
@@ -95,16 +111,19 @@ Audio ML + NLP classifier that distinguishes human from AI-generated calls, comb
 
 ## Tech Stack
 
-```text
+​```text
 Languages      → Python, SQL, TypeScript, JavaScript
-AI / ML        → LangChain, RAGAS, OpenAI API, HuggingFace Transformers
+AI / ML        → LangChain, RAGAS, OpenAI API, Azure OpenAI, HuggingFace Transformers
                  Machine Learning, Deep Learning, NLP, RAG, LLM Evaluation
-Libraries      → PyTorch, Pandas, NumPy, Scikit-learn, OpenCV, Librosa
-Vector DBs     → Pinecone, ChromaDB
-Data           → PostgreSQL, MySQL, SQLite, ETL Pipelines
-Frameworks     → React, Next.js, Streamlit, FastAPI
-Tools          → Git, GitHub Actions, Docker, Vercel, JIRA
-```
+Vector / Search → Pinecone, Azure AI Search, Hybrid Search (BM25 + Embeddings)
+Libraries      → PyTorch, Pandas, NumPy, Scikit-learn, FastAPI, OpenCV, Librosa
+Cloud          → Azure (SQL, Blob Storage, App Service, AI Search, Key Vault, App Insights)
+                 AWS (S3, EC2, SageMaker, Lambda) · GCP (BigQuery, Vertex AI)
+Data           → Star Schema Design, ETL Pipelines, Columnstore Indexing
+                 PostgreSQL, Azure SQL, SQLite
+Frameworks     → React, Next.js, FastAPI, Streamlit
+Tools          → Git, GitHub Actions, Docker, Bicep IaC, Vercel, JIRA
+​```
 
 ---
 
