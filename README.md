@@ -26,7 +26,7 @@ class Phaneendra:
 
 ## Featured Projects
 
-### 📊 InsightHub — AI-Powered Business Analytics Platform
+### 📊 InsightHub - AI-Powered Business Analytics Platform
 Full-stack Azure analytics platform ingesting 230,000+ rows through a star-schema ETL pipeline, serving insights via FastAPI, a React dashboard, and a GPT-4o RAG search engine — fully deployed and live.
 
 - Python ETL pipeline: 7 CSVs → star schema (6 dims, 3 fact tables) in Azure SQL; 230,000+ rows processed
@@ -103,7 +103,7 @@ CNN-based crowd safety system that learns normal behavior from historical video 
 ### ☎️ AI Voice Turing Test Model
 Audio ML + NLP classifier that distinguishes human from AI-generated calls, combining MFCC feature extraction with transformer-based sentiment analysis on transcripts.
 
-🥉 **3rd Place — ASU Social Bias Hackathon (Ethical Spectacle Research × Arizona State University)**
+🥉 **3rd Place - ASU Social Bias Hackathon (Ethical Spectacle Research × Arizona State University)**
 
 **Tech:** Python · Transformers · Librosa · HuggingFace · NLP · Audio Processing
 
