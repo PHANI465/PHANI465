@@ -1,6 +1,6 @@
 # Hey, I'm Phaneendra 👋
 
-​```python
+```python
 class Phaneendra:
     role = ["AI Engineer", "Data Scientist", "ML Engineer", "AI Product Builder"]
     interests = [
@@ -12,7 +12,11 @@ class Phaneendra:
         "MLOps",
     ]
     currently_building = "AI-powered systems with real-world impact"
-​```
+```
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-phaneendragavara.dev-8b5cf6?style=flat-square&logo=vercel&logoColor=white)](https://phaneendragavara.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/phaneendra-gavara)
+[![Open to Work](https://img.shields.io/badge/Open%20to-AI%2FML%20Roles-34d399?style=flat-square)](https://phaneendragavara.dev/contact)
 
 ## About Me
 
@@ -24,10 +28,24 @@ class Phaneendra:
 
 ---
 
+## Certifications
+
+<p>
+<a href="https://www.credly.com/badges/f8d45105-4913-4ebb-9353-36635ff76f65/public_url"><img src="https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified Solutions Architect - Associate"></a>
+<a href="https://www.credly.com/badges/c4f2a25d-6ba4-4349-a5e2-de8bf03459f3"><img src="https://img.shields.io/badge/AWS-Certified%20AI%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified AI Practitioner"></a>
+</p>
+
+- **AWS Certified Solutions Architect - Associate** — Amazon Web Services · [Verify](https://www.credly.com/badges/f8d45105-4913-4ebb-9353-36635ff76f65/public_url)
+- **AWS Certified AI Practitioner** — Amazon Web Services · [Verify](https://www.credly.com/badges/c4f2a25d-6ba4-4349-a5e2-de8bf03459f3)
+- AI Fluency Framework & Foundations — Anthropic
+- Introduction to Claude Cowork, Claude Code 101, Claude 101 — Anthropic
+
+---
+
 ## Featured Projects
 
 ### 📊 InsightHub - AI-Powered Business Analytics Platform
-Full-stack Azure analytics platform ingesting 230,000+ rows through a star-schema ETL pipeline, serving insights via FastAPI, a React dashboard, and a GPT-4o RAG search engine — fully deployed and live.
+Full-stack Azure analytics platform ingesting 230,000+ rows through a star-schema ETL pipeline, serving insights via FastAPI, a React dashboard, and a GPT-4o RAG search engine, fully deployed and live.
 
 - Python ETL pipeline: 7 CSVs → star schema (6 dims, 3 fact tables) in Azure SQL; 230,000+ rows processed
 - Non-Clustered Columnstore Index cut FactSales aggregation from ~8s to <1s on 119,652 rows
@@ -43,10 +61,10 @@ Full-stack Azure analytics platform ingesting 230,000+ rows through a star-schem
 ---
 
 ### 🧪 ASU LLM Evaluation Pipeline
-Automated CI/CD pipeline that scores a university RAG chatbot on every code push — making LLM quality enforceable like unit tests.
+Automated CI/CD pipeline that scores a university RAG chatbot on every code push, making LLM quality enforceable like unit tests.
 
 - 6 automated quality gates block deployment: faithfulness ≥ 0.80, hallucination ≤ 10%, relevancy ≥ 0.75
-- GPT-4o-mini as judge — 25× cheaper, ~$0.87/run vs ~$21.75 with GPT-4o
+- GPT-4o-mini as judge, 25× cheaper: ~$0.87/run vs ~$21.75 with GPT-4o
 - Live React dashboard on Vercel with trend charts across 50 runs and per-question breakdown table
 - **Latest: 6/6 gates PASS · Faithfulness 1.00 · Hallucination 0% · Cost $0.087/run**
 
@@ -109,21 +127,30 @@ Audio ML + NLP classifier that distinguishes human from AI-generated calls, comb
 
 ---
 
+### 🌐 AI-Powered Developer Portfolio
+This portfolio, built from scratch as a full-stack production app: 4 live-switching themes, an AI assistant backed by GPT-4o mini + a Pinecone RAG pipeline, an interactive terminal easter egg, and a role-fit quiz that surfaces relevant projects per visitor.
+
+**Tech:** Next.js 14 · TypeScript · Tailwind CSS · Framer Motion · Pinecone · Vercel
+
+🔗 [Live](https://phaneendragavara.dev)
+
+---
+
 ## Tech Stack
 
-​```text
-Languages      → Python, SQL, TypeScript, JavaScript
-AI / ML        → LangChain, RAGAS, OpenAI API, Azure OpenAI, HuggingFace Transformers
-                 Machine Learning, Deep Learning, NLP, RAG, LLM Evaluation
+```text
+Languages       → Python, SQL, TypeScript, JavaScript
+AI / ML         → LangChain, RAGAS, OpenAI API, Azure OpenAI, HuggingFace Transformers
+                  Machine Learning, Deep Learning, NLP, RAG, LLM Evaluation
 Vector / Search → Pinecone, Azure AI Search, Hybrid Search (BM25 + Embeddings)
-Libraries      → PyTorch, Pandas, NumPy, Scikit-learn, FastAPI, OpenCV, Librosa
-Cloud          → Azure (SQL, Blob Storage, App Service, AI Search, Key Vault, App Insights)
-                 AWS (S3, EC2, SageMaker, Lambda) · GCP (BigQuery, Vertex AI)
-Data           → Star Schema Design, ETL Pipelines, Columnstore Indexing
-                 PostgreSQL, Azure SQL, SQLite
-Frameworks     → React, Next.js, FastAPI, Streamlit
-Tools          → Git, GitHub Actions, Docker, Bicep IaC, Vercel, JIRA
-​```
+Libraries       → PyTorch, Pandas, NumPy, Scikit-learn, FastAPI, OpenCV, Librosa
+Cloud           → Azure (SQL, Blob Storage, App Service, AI Search, Key Vault, App Insights)
+                  AWS (S3, EC2, SageMaker, Lambda) · GCP (BigQuery, Vertex AI)
+Data            → Star Schema Design, ETL Pipelines, Columnstore Indexing
+                  PostgreSQL, Azure SQL, SQLite
+Frameworks      → React, Next.js, FastAPI, Streamlit
+Tools           → Git, GitHub Actions, Docker, Bicep IaC, Vercel, JIRA
+```
 
 ---
 
@@ -134,6 +161,15 @@ Tools          → Git, GitHub Actions, Docker, Bicep IaC, Vercel, JIRA
 - Bayesian statistics & probabilistic modeling
 - MLOps & production ML infrastructure
 - Human-centered AI & AI product systems
+
+---
+
+## GitHub Stats
+
+<p align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=PHANI465&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PHANI465&layout=compact&hide_border=true" alt="Top languages" />
+</p>
 
 ---
 
