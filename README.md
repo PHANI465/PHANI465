@@ -35,10 +35,10 @@ class Phaneendra:
 <a href="https://www.credly.com/badges/c4f2a25d-6ba4-4349-a5e2-de8bf03459f3"><img src="https://img.shields.io/badge/AWS-Certified%20AI%20Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Certified AI Practitioner"></a>
 </p>
 
-- **AWS Certified Solutions Architect - Associate** — Amazon Web Services · [Verify](https://www.credly.com/badges/f8d45105-4913-4ebb-9353-36635ff76f65/public_url)
-- **AWS Certified AI Practitioner** — Amazon Web Services · [Verify](https://www.credly.com/badges/c4f2a25d-6ba4-4349-a5e2-de8bf03459f3)
-- AI Fluency Framework & Foundations — Anthropic
-- Introduction to Claude Cowork, Claude Code 101, Claude 101 — Anthropic
+- **AWS Certified Solutions Architect - Associate** - Amazon Web Services · [Verify](https://www.credly.com/badges/f8d45105-4913-4ebb-9353-36635ff76f65/public_url)
+- **AWS Certified AI Practitioner** - Amazon Web Services · [Verify](https://www.credly.com/badges/c4f2a25d-6ba4-4349-a5e2-de8bf03459f3)
+- AI Fluency Framework & Foundations - Anthropic
+- Introduction to Claude Cowork, Claude Code 101, Claude 101 - Anthropic
 
 ---
 
