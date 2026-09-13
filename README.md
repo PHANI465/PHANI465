@@ -169,8 +169,10 @@ Automated CI/CD pipeline that scores a university RAG chatbot on every push, mak
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=PHANI465&show_icons=true&hide_border=true&title_color=8b5cf6&icon_color=14b8a6&text_color=c9d1d9&bg_color=0d1117)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=PHANI465&layout=compact&hide_border=true&title_color=8b5cf6&text_color=c9d1d9&bg_color=0d1117)
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=PHANI465&theme=github_dark" alt="GitHub contribution summary for PHANI465" width="100%">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=PHANI465&theme=github_dark" alt="Top languages by repository" height="170">
+<img src="https://streak-stats.demolab.com/?user=PHANI465&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak" height="170">
 
 </div>
 
